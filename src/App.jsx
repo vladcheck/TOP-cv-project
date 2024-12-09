@@ -1,5 +1,7 @@
+import { MakeResume } from "./components/MakeResume";
+
 function App() {
-  return;
+  return <MakeResume />;
 }
 
 export default App;
