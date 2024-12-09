@@ -1,12 +1,13 @@
-import { Experience } from "./Experience";
-
+import { ExperienceBlock } from "./ExperienceBlock";
+import { HeaderWithSeparator } from "./HeaderWithSeparator";
 export function ExperienceSection() {
   return (
     <section className="experience-section">
-      <h2>My experience</h2>
+      <HeaderWithSeparator type={2} text="My experience" />
       <div className="experience-list">
-        <Experience />
-        <Experience />
+        <ExperienceBlock />
+        <ExperienceBlock />
+        <ExperienceBlock />
       </div>
     </section>
   );

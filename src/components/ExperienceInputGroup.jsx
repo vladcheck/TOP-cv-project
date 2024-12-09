@@ -8,6 +8,7 @@ export default function ExperienceInputGroup() {
         <h3>Experience</h3>
         <Button name="Remove this entry" />
       </header>
+      <hr />
       <InputRow name="Company full name" inputName="company" placeholder="Google LTD" required={true} />
       <InputRow name="Position" inputName="position" placeholder="CI/CD specialist" required={true} />
       <InputRow type="date" name="Date from" inputName="data-from" required={true} />

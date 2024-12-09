@@ -14,8 +14,18 @@ body {
   align-items: center;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+.form-header {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgb(219, 238, 255);
+}
+
 .make-resume {
-  width: clamp(200px, 50vw, 600px);
+  width: clamp(200px, 60vw, 600px);
   border: 1px solid black;
   padding: 10px;
 }
@@ -43,6 +53,27 @@ body {
 }
 
 .input-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-list {
+  padding: 10px;
+  margin-top: 10px;
+  max-width: 100%;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.experience-block {
+  border: 1px solid black;
+  padding: 10px;
+  min-width: 400px;
+}
+
+.experience-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
