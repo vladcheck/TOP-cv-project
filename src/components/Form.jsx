@@ -1,3 +1,4 @@
+import { ExperienceSection } from "./ExperienceSection";
 import { InputGroup } from "./InputGroup";
 import { InputRow } from "./InputRow";
 
@@ -26,6 +27,7 @@ export function Form() {
         <InputRow type="date" name="Start date" inputName="study-start" required={true} />
         <InputRow type="date" name="Graduation date" inputName="study-end" required={true} />
       </InputGroup>
+      <ExperienceSection />
     </form>
   );
 }
