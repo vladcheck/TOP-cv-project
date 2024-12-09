@@ -12,9 +12,15 @@
   --required: rgb(255, 104, 104);
 }
 
-body {
+#root {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,6 +105,18 @@ button:hover {
 
 button:active {
   background-color: rgb(178, 219, 255);
+}
+
+footer {
+  background-color: black;
+  padding: 10px 0;
+}
+
+footer img {
+  --size: 54px;
+  width: var(--size);
+  height: var(--size);
+  margin-left: 20px;
 }
 
 /* Accessibility */
