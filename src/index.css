@@ -5,3 +5,45 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.make-resume {
+  width: clamp(200px, 50vw, 600px);
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.resume-header {
+  margin-bottom: 30px;
+}
+
+.header-with-separator hr {
+  margin: 5px 0;
+}
+
+#resume-form,
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+#resume-form {
+  gap: 15px;
+}
+
+.input-group {
+  gap: 5px;
+}
+
+.input-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

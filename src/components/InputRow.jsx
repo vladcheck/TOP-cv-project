@@ -1,8 +1,8 @@
 export function InputRow({ name, inputName, type = "text", placeholder, defaultValue, required = false }) {
   return (
     <div className="input-row">
-      <label>
-        {name}
+      <label className="input-label">
+        <span className="input-name">{name}</span>
         <input
           name={inputName}
           type={type}

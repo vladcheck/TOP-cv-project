@@ -3,7 +3,7 @@ import { InputRow } from "./InputRow";
 
 export function Form() {
   return (
-    <form action=".">
+    <form action="." id="resume-form">
       <InputGroup header="Personal information">
         <InputRow name="Name" inputName="first-name" placeholder="Joshua" required={true} />
         <InputRow name="Second name" inputName="second-name" placeholder="Musk" required={true} />
