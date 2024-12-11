@@ -32,6 +32,10 @@ h1 {
   font-size: 2rem;
 }
 
+ul {
+  list-style: none;
+}
+
 .form-header {
   margin-bottom: 20px;
   text-align: center;
