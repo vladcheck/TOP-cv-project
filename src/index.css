@@ -117,6 +117,7 @@ ul {
 button {
   background-color: var(--main-clr);
   border: none;
+  width: max-content;
   padding: 4px 16px;
   font-size: 0.9rem;
   border-radius: 3px;
