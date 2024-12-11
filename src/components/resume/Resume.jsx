@@ -1,7 +1,7 @@
 import ResumeExperienceRow from "./ResumeExperienceRow";
 import { ResumeExperienceSection } from "./ResumeExperienceSection";
 import { ResumeHeader } from "./ResumeHeader";
-import { ResumeInputGroup } from "./ResumeSection";
+import { ResumeInputGroup } from "./ResumeInputGroup";
 
 export function Resume() {
   return (
