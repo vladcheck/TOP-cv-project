@@ -1,3 +1,5 @@
+import ResumeExperienceRow from "./ResumeExperienceRow";
+import { ResumeExperienceSection } from "./ResumeExperienceSection";
 import { ResumeHeader } from "./ResumeHeader";
 import { ResumeInputGroup } from "./ResumeSection";
 
@@ -22,6 +24,12 @@ export function Resume() {
           "Graduation date": "23-06-2024",
         }}
       />
+      <ResumeExperienceSection>
+        <ResumeExperienceRow name="Google LLC" role="CI/CD manager" start="24-02-24" end="24-02-24" />
+        <ResumeExperienceRow name="Google LLC" role="CI/CD manager" start="24-02-24" end="24-02-24" />
+        <ResumeExperienceRow name="Google LLC" role="CI/CD manager" start="24-02-24" end="24-02-24" />
+        <ResumeExperienceRow name="Google LLC" role="CI/CD manager" start="24-02-24" end="24-02-24" />
+      </ResumeExperienceSection>
     </section>
   );
 }
