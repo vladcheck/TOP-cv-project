@@ -1,4 +1,4 @@
-import { Button } from "./Button";
+import { Button } from "../Button";
 import { ExperienceSection } from "./ExperienceSection";
 import { InputGroup } from "./InputGroup";
 import { InputRow } from "./InputRow";
