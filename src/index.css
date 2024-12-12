@@ -77,7 +77,8 @@ ul {
 }
 
 .input-label,
-.resume-row {
+.resume-row,
+.row {
   display: flex;
   justify-content: space-between;
   align-items: center;

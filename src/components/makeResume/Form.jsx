@@ -53,15 +53,17 @@ const groupEducation = (
     <InputRow type="date" name="Graduation date" inputName="study-end" required={true} defaultValue={"12-23-23"} />
   </InputGroup>
 );
+const id = "resume-form";
+
 export function Form({ setFormEntries }) {
-  const id = "resume-form";
+  const [experienceBlocks, setExperienceBlocks] = useState([]);
 
   return (
     <form action="." id={id}>
       {groupPersonal}
       {groupContacts}
       {groupEducation}
-      <ExperienceSection />
+      <ExperienceSection setExperienceBlocks={setExperienceBlocks} experienceBlocks={experienceBlocks} />
       <Button
         type="submit"
         name="Submit"

@@ -1,10 +1,22 @@
+import { Button } from "../Button";
 import { ExperienceBlock } from "./ExperienceBlock";
-import { HeaderWithSeparator } from "./HeaderWithSeparator";
-export function ExperienceSection() {
+
+export function ExperienceSection({ experienceBlocks, setExperienceBlocks }) {
   return (
     <section className="experience-section">
-      <HeaderWithSeparator type={2} text="My experience" />
-      <div className="experience-list"></div>
+      <header>
+        <div className="row">
+          <h2>My experience</h2>
+          <Button
+            name="Add"
+            cb={() => {
+              setExperienceBlocks([...experienceBlocks, ExperienceBlock()]);
+            }}
+          />
+        </div>
+        <hr />
+      </header>
+      <div className="experience-list">{experienceBlocks}</div>
     </section>
   );
 }
