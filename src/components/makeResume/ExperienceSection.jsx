@@ -4,11 +4,7 @@ export function ExperienceSection() {
   return (
     <section className="experience-section">
       <HeaderWithSeparator type={2} text="My experience" />
-      <div className="experience-list">
-        <ExperienceBlock />
-        <ExperienceBlock />
-        <ExperienceBlock />
-      </div>
+      <div className="experience-list"></div>
     </section>
   );
 }
