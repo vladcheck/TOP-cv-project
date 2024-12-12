@@ -1,7 +1,6 @@
 import { ResumeRow } from "./ResumeRow";
 
 export function ResumeInputGroup({ header, entries }) {
-  console.log(Object.entries(entries));
   return (
     <div className="resume-input-group">
       <h2>{header}</h2>
