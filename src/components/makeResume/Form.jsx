@@ -53,7 +53,7 @@ const groupEducation = (
     <InputRow type="date" name="Graduation date" inputName="study-end" required={true} defaultValue={"12-23-23"} />
   </InputGroup>
 );
-export function Form() {
+export function Form({ setFormEntries }) {
   const id = "resume-form";
 
   return (
@@ -76,6 +76,7 @@ export function Form() {
               if (value) acc[key] = value;
               return acc;
             }, {});
+            setFormEntries({ firstLevel: entries });
           }
         }}
       ></Button>
